@@ -155,7 +155,7 @@ end index : index akhir dari data yang akan dicopy (tidak termasuk)
 // days.reverse()
 // console.table(days)
 
-//// JOIN ; menggabungkan data pada array dengan karakter tertentu
+// JOIN ; menggabungkan data pada array dengan karakter tertentu
 // var days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
 // var joinComma = days.join(',')
 // console.log(joinComma)
@@ -163,16 +163,16 @@ end index : index akhir dari data yang akan dicopy (tidak termasuk)
 // console.log(joinAnd)
 
 // //CONCAT ; Menggabungkan data dari dua array atau lebih
-// var days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
-// var animals = ['cat', 'dog', 'horse', 'bird', 'zebra']
-// var colours = ['red', 'blue', 'green', 'black', 'white']
+var days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+var animals = ['cat', 'dog', 'horse', 'bird', 'zebra']
+var colours = ['red', 'blue', 'green', 'black', 'white']
 
 // //day+fruits
-// var dayAnimals = days.concat(animals)
-// console.table(dayAnimals)
-// //all
-// var dayAll = days.concat(animals,colours)
-// console.table(dayAll)
+var dayAnimals = days.concat(animals)
+console.table(dayAnimals)
+//all
+var dayAll = days.concat(animals,colours)
+console.table(dayAll)
 
 
 
